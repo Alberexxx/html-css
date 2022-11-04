@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalizando links</title>
+    <style>
+        /*SELETORES ESPECIAIS
+          # = id
+          . = class
+          : = pseudo-class
+          :: = pseudo-element
+          > = clildren
+        */
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a:visited {
+            color: black;
+            
+        }
+        a:hover {
+            color:red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: blue;
+        }
+        .especial {
+            background-color: rgba(137, 43, 226, 0.212);
+        }
+        .especial::before {
+            content: '⇒ ';
+        }
+        .especial::after {
+            content: ' ⇐'
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=12CeaxLiMgE&list=PLVpvZTK0CvToDf9eLQgXhCI9k5VlYZu8z&index=15" target="_blank" rel="noopener noreferrer"> Get Low</a></li>
+        <li><a href="https://www.youtube.com/watch?v=oRdxUFDoQe0&list=PLVpvZTK0CvToDf9eLQgXhCI9k5VlYZu8z&index=7" target="_blank" rel="noopener noreferrer" class="especial">Beat It</a></li>
+        <li><a href="https://www.youtube.com/watch?v=btPJPFnesV4&list=PLVpvZTK0CvToDf9eLQgXhCI9k5VlYZu8z&index=3" target="_blank" rel="noopener noreferrer">Eye Of The Tiger </a></li>
+    </ul>
+</body>
+</html>

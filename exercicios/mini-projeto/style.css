@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+header {
+    background-image:linear-gradient(to top, var(--cor05),var(--cor04),var(--cor03));
+    color: white;
+    margin-bottom: 0px;
+    
+}
+header > p {
+    font-size: 10px;
+    margin-bottom:30px;
+}
+header > h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.722);
+    
+}
+
+
+nav > a {
+    color: #c5ebd6;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    transition-duration: 0.2s;
+}
+nav > a:hover {
+    background-color: #3ddc84;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+#nav-bar {
+    text-align:left;
+    box-shadow: 0px 7px 9px  rgba(0, 0, 0, 0.377);
+}
+
+
+body {
+    margin: 0px;
+    background-color:#c5ebd6;
+    font-family: var(--font0);
+    text-align: center;
+   
+}
+main {
+    background-color: white;
+    
+    box-shadow:0px 10px 10px 10px  rgba(0, 0, 0, 0.114);
+    border-radius: 0px 0px 20px 20px ;
+    
+    margin: auto;
+    min-height: 320px;
+    max-width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+img {
+    width: 100%;
+}
+iframe {
+    width: 100%;
+}
+aside > ul {
+    list-style-type: none ;
+    columns: 2;
+    text-decoration: none;
+    
+    
+}
+li {
+    padding-bottom: 15px;
+    text-decoration: none;
+    
+}
+box-sizing: border-box;
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype'), url('fontes/BebasNeue-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family:'bebas neue' ;
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+
+}
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor02: #3ddc84;
+    --cor03: #2fa866;
+    --cor04: #1a5c37;
+    --cor05: #063d1e;
+    --font0: arial, helvetica, sans-serif;
+    --font01: 'bebas neue', cursive;
+    --font02: 'android', sans-serif;
+
+}
+aside {
+    background-color: #c5ebd6;
+    border-radius: 20px;
+
+}
+footer {
+    background-color: #063d1e;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+}
+    
+
+.indices {
+    font-family: var(--font02);
+    
+}
+.titulo {
+    font-family: var(--font01);
+}
+
+.imagem {
+    display: block;
+}
+#primeiro-titulo {
+    padding-top: ;
+}
+#primeiro-titulo {
+    margin: 0px;
+    padding-top: 30px;
+}
+#h4-final {
+    background-color: #3ddc84;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px ;
+    
+}

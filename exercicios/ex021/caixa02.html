@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grupping tags</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgba(128, 128, 128, 0.512);
+            /*margin: 0px;*/
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 0px 20px 20px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+        }
+        nav {
+            background-color: rgb(128, 128, 128);
+            padding: 3px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.31);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: overline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            /*possivel fazer o shorthand(nas 4 vertices)*/
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.207);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgba(128, 128, 128, 0.444);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 4px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50px;
+            size:100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+            <a href="#">link4</a>
+            <a href="#">link5</a>
+            <a href="#">link6</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes  Politica  Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet distinctio quas voluptate, cumque in ex, tempora, quia facere dolore fuga facilis animi nobis dolorum saepe at. Labore nesciunt eum enim.</p>
+                <aside>
+                    <p>noticia escrita por Alberes Borges</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Alberexx technologies ltda</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
