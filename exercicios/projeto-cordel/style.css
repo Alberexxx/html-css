@@ -1,60 +1,55 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
-
 
 * {
     padding: 0;
     margin: 0;
 }
-
-
+html, body {
+    min-height: 100vh;
+}
 :root {
     --font1: verdana, Geneva,tahoma,sans-serif;
     --fonte2: 'Passion one', cursive;
     --fonte3:'Sriracha',cursive;
-
 }
 body {
-   /* width: 100vh; */
    font-family: var(--font1);
 }
-
 header {
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 30px;
-    
+    font-size: 4vw; 
 }
 header > h1{
     font-family: var(--fonte2);
 }
-
-
 .frase {
     text-align: left;
     height: 250px;
     width: 250px;
-    font-size: 20px;
+    font-size: 22px;
     margin: 100px 30px;
-    font-family: var(--fonte3);
-    
-    
+    font-family: var(--fonte3);  
 }
 .frase2 {
     text-align: left;
+    text-shadow: 1px 1px 0px black;
     height: 250px;
     width: 250px;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(0, 0, 0, 0.508);
     margin: 100px 30px;
     font-family: var(--fonte3);
     color: white;
+    padding: 7px;
 }
-
 footer {
     background-color: black;
     color: white;
@@ -62,9 +57,6 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 30px;
-
-    
-    
 }
 #subtitulo {
     font-family: var(--font1);
@@ -76,19 +68,23 @@ footer {
 }
 
 .fundo_img1{
-    background-color: rgba(0, 0, 0, 0.355);
-    color: white;
     background-image: url('imagens/background001.jpg');
-    
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.46);
 }
 .fundo_img2 {
-    background-color: rgba(0, 0, 0, 0.355);
-    color: white;
     background-image: url('imagens/background002.jpg');
-    
+    padding: 60px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.462);
 }
 header a:hover {
     text-decoration: underline;
 }
-
 
