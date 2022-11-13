@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            width: 97vw; 
+            background-color: rgba(128, 240, 167, 0.377);          
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        table {
+            width: 450px;
+            border-collapse: collapse;
+            margin: auto;
+            position: relative;
+        }
+        tr {
+            font-size: 25px;
+        }
+        th {
+            border: 1px solid black;
+            background-color: rgba(128, 128, 128, 0.185);
+        }
+        td {
+            border: 1px solid black;
+        }
+        tbody > tr:nth-child(2n -1) {
+            background-color:rgba(0, 255, 255, 0.249) ;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color:rgb(223, 220, 220) ;
+
+        }
+        .num {
+            text-align: right;
+        }
+        .regiao {
+            text-align: center;
+        }
+        .posicao {
+            text-align: right;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption style="font-size: 20px; background-color:rgba(128, 128, 128, 0.111);"> Estados por extensão territorial</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width:90px ;">Posição</th>
+                <th scope="col">Região</th>
+                <th scope="col" style="width: 100px;">%  Brasil</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="posicao">1</td>
+                <td class="regiao">Norte</td>
+                <td class="num">45%</td>
+            </tr>
+            <tr>
+                <td class="posicao">2</td>
+                <td class="regiao">Centro-Oeste</td>
+                <td class="num">18%</td>
+            </tr>
+            <tr>
+                <td class="posicao">3</td>
+                <td class="regiao">Nordeste</td>
+                <td class="num">18%</td>
+            </tr>
+            <tr> 
+                <td class="posicao">4</td>
+                <td class="regiao">Sudeste</td>
+                <td class="num">10%</td>
+            </tr>
+            <tr>
+                <td class="posicao">5</td>
+                <td class="regiao">Sul</td>
+                <td class="num">6%</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">total</th>
+                <td></td>
+                <td class="num">100%</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos fugiat voluptatibus magnam consequuntur delectus alias magni perferendis sapiente consequatur ipsum fuga deleniti, libero quisquam placeat quasi nobis nam at eum nulla obcaecati molestias minima? Est veniam impedit autem adipisci, aspernatur alias saepe quidem nesciunt aut maiores magni corrupti odio eligendi quae consequuntur suscipit. Itaque, fugiat error? Nesciunt dolore voluptatibus numquam debitis quos hic earum velit, qui eius esse! In reiciendis nostrum, modi magni sed magnam obcaecati repellat maiores eos, perspiciatis debitis hic illo! Possimus dolore quas mollitia dolores fuga et rerum. Reiciendis necessitatibus cumque recusandae iure est labore dignissimos ab magni itaque ad. Velit necessitatibus temporibus laborum praesentium ipsa expedita repellendus illo quos odit ad ea, repudiandae soluta unde nam inventore ut placeat? Dolor, incidunt facilis? Numquam quia quis harum eveniet maiores perferendis. Voluptates ipsam dolores ratione, temporibus at, exercitationem recusandae quo ipsum dolor eos cupiditate magni Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero non reiciendis maiores, exercitationem temporibus ad soluta tempora culpa saepe necessitatibus nihil rem sed id velit magnam fugit perspiciatis recusandae nulla commodi perferendis officiis deleniti minima? Neque praesentium similique deserunt assumenda beatae, voluptates molestias commodi, recusandae quam nobis explicabo eligendi corporis quaerat! Labore repellendus ex voluptatem illum laboriosam asperiores voluptates iste dolor ipsum? Nostrum modi rerum, dolor recusandae harum in libero fugit doloremque possimus rem repudiandae numquam architecto corporis tempora consectetur minus, cum earum excepturi! Expedita esse quas accusamus maxime maiores sunt quia asperiores facere mollitia aperiam eaque cumque at laborum animi commodi, corrupti soluta voluptate minus dolores incidunt? Numquam, labore. Ratione quas sunt dicta magnam itaque distinctio reprehenderit culpa dolores cupiditate tempore, iure sequi ipsa eos deserunt hic. Hic officia porro doloremque, fugiat provident adipisci soluta unde enim quas veniam! Ipsam, inventore. Sequi harum asperiores veniam, corrupti ex animi debitis in eos aliquam enim ipsa, repudiandae magni accusantium eligendi impedit? Officia error vel enim nemo sunt, sapiente, in praesentium commodi earum autem, sint ratione. Dolor illo at possimus, voluptate iste eius temporibus earum facilis itaque consectetur perferendis sapiente cumque inventore quod harum soluta nobis a magnam totam neque debitis numquam./f> </p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formilarios com escolhas</h1>
+    <label for="UF">Estado: </label>
+    <select name="" id="UF">
+
+        <option value="" id="">escolha uma opção</option>
+        
+        <optgroup label="Região Norte">
+        <option value="o que vai pro back">Acre</option>
+        <option value="">Pará</option>
+        <option value="">Roraima</option>
+        </optgroup>
+
+        <optgroup label="Região Nordeste">
+            <option value="">Pernambuco</option>
+            <option value="">Bahia</option>
+            <option value="">Alagoas</option>
+        </optgroup>
+
+        <optgroup label="Região Sul">
+            <option value="">Minas Gerais</option>
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+        </optgroup>
+    </select>
+    <p>
+        <label for="prff">Profisões: </label>
+        <input type="text" id="proff" list="lstprof" placeholder="digite ou escolha uma profisão" size="26">
+        <datalist id="lstprof">
+            <option >Administrador</option>
+            <option >Arquiteto</option>
+            <option >Engenheiro</option>
+            <option >Programador</option>
+            <option >Medico</option>
+        </datalist>
+    </p>
+    <label for="msg"></label>
+    <textarea name="" id="msg" cols="30" rows="10" placeholder="digite uma mensagem"></textarea>
+    <p>
+    <input type="range" name="" id="inum" min="0" max="10" oninput="val.innerHTML = Number(inum.value)">
+    <output id="val">5</output>
+
+    </p>
+</body>
+</html>

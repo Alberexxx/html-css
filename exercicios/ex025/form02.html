@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario2</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            border: 1px solid black;
+            width: 250px;
+            padding: 20px;
+            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.149);
+            margin: auto;
+        }
+        #botao {
+            text-align: right;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de Formulario 2</h1>
+    <form action="#" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Dados obrigatórios</legend>
+            <p>
+                <label for="nome">Usúario: </label>
+                <input type="text" name="nome" id="nome" placeholder="      digite o usúario" size="16" autofocus autocapitalize="characters"></p>
+                <!-- capitalize só funciona com smartphone -->
+            <p>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" placeholder="minimo de 8 caracteres" minlength="8" maxlength="8" size="17" autocomplete="current-password" required>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados opcionais</legend>
+             <p>
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" id="masculino" checked >
+                <label for="masculino" >Masculino</label>
+                <input type="radio" name="sexo" id="Feminino" >
+                <label for="Feminino">Feminino</label> <br>
+                <br>
+                <p>esportes que você gosta:</p>
+                <input type="checkbox" name="" id="futebol"> 
+                <label for="futebol">Futebol</label>
+                <input type="checkbox" name="" id="basquete">
+                <label for="basquete">Basquete</label><br>
+                <input type="checkbox" name="" id="muay thai">
+                <label for="muay thai">Muay Thai</label>
+                <input type="checkbox" name="" id="muscu">
+                <label for="muscu">Musculação</label>
+            </p>
+         </fieldset>
+        <br>
+        
+            <label for="data">Data: </label>
+            <input type="date" name="" id="data">
+        <p>
+            <label for="hora">Hora: </label>
+            <input type="time" name="" id="">
+        </p>
+        
+        <p>
+            <label for="">Idade: </label>
+            <input type="number" name="" id="" size="5" min="18" max="150" step="0.5">
+        </p>
+        <p>
+            <label for="">Phone: </label>
+            <input type="tel" autocomplete="tel-national" placeholder="(xx) xxxx-xxxx"
+            pattern="^\(\d{2}\)\d{4,5}-\d{4}$" maxlength="11">
+            <!-- estudar sobre RegEx(espressões Regulares) -->
+        </p>
+        
+         
+        <p> 
+            <label for="">e-mail: </label>
+            <input type="email" placeholder="@gmail.com">
+        </p>
+
+        
+        <p id="botao">
+            <input type="submit" value="enviar" >
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+
+</body>
+</html>
